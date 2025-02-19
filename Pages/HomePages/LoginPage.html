@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Criminal Record Management</title>
+    <link rel="stylesheet" href="../../Styles/HomePages/LoginPage.css">
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="left">
+            <img class="header-logo-1" src="../../images/main_logo.png">
+            <img class="header-logo-2" src="../../images/ncrc_logo.png">
+            <img class="header-logo-4" src="../../images/G20Logo.png">
+        </div>
+
+        <div class="middle">
+            <input id="text" name="text" class="middle-input" type="text" placeholder="Search For">
+            <button class="middle-search">Search</button>
+        </div>
+
+        <div class="right">
+            <div class="right-services">Services</div>
+            <div class="right-subscribe">Subscribe</div>
+            <div class="right-about">About Us</div>
+            <div class="right-contact">Contact Us</div>
+        </div>
+
+    </div>
+
+    
+    <div class="main">
+        <h1>Criminal Record</h1>
+        <h3>Enter your login credentials</h3>
+        <div id="loginForm">
+              <label for="userId">
+                    User-Id:
+              </label>
+              <input type="text" 
+                     id="userId" 
+                     name="userId" 
+                     placeholder="Enter your User-Id" required>
+
+              <label for="password">
+                    Password:
+              </label>
+
+              <input type="password"
+                     id="password" 
+                     name="password"
+                     placeholder="Enter your Password" required>
+
+              <label for="role">
+                    Role:
+              </label>
+                    <!-- <div class="role-selector"> -->
+                        <select id="role" name="role" class="options">
+                        <option selected value="">Select Role</option>
+                        <option value="Admin">Administrator</option>
+                        <option value="Jailer">Jailer</option>
+                        <option value="Police">Police</option>
+                        <option value="CBI">CBI</option>
+                        <option value="Judges">Judges</option>
+                        </select>
+                    <!-- </div> -->
+
+              <div class="wrap">
+                    <button
+                         onclick="solve()">
+                          Submit
+                    </button>
+              </div>
+            </div>
+        <p>Not registered?
+              <a href="SignupPage.html"
+                 style="text-decoration: none;">
+                    Create an account
+              </a>
+        </p>
+  </div>
+
+
+  <div class="footer">
+    <div class="footer-first">
+        <strong class="a">Get to know</strong>
+        <a class="a" href="">Privacy Policy</a>
+        <a class="a" href="">FAQ</a>
+        <a class="a" href="">Terms of Service</a>
+    </div>
+
+    <div class="footer-second">
+        <strong class="a">Grievance</strong>
+        <a class="a" href="">CPGRAMS</a>
+        <a class="a" href="">National Consumer Helpline</a>
+    </div>
+
+    <div class="footer-Third">
+        <strong class="a">Quick Links</strong>
+        <a class="a" href="">About us</a>
+        <a class="a" href="">Dashboard</a>
+        <a class="a" href="">Contact Us</a>
+        <a class="a" href="">Accessibilty</a>
+    </div>
+
+    <div class="footer-fourth">
+        <strong class="a">Useful Links</strong>
+        <a class="b" href="https://negd.gov.in/" target="_blank"><img src="../../images/footer1.svg" alt=""></a>
+        <a class="b" href="https://www.digitalindia.gov.in/" target="_blank"><img src="../../images/footer2.svg" alt=""></a>
+        <a class="b" href="https://www.mygov.in/" target="_blank"><img src="../../images/footer3.svg" alt=""></a>
+        <a class="b" href="https://www.india.gov.in/" target="_blank"><img src="../../images/footer4.svg" alt=""></a>
+    </div>
+  </div>
+
+  <script src="../../Script/HomePages/LoginPage.js"></script>
+</body>
+
+</html>
